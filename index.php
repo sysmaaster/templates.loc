@@ -155,11 +155,29 @@
     <!-- Блок 2 -->
     <div class="container">
         <div class="container__sell">
+            <!-- напка з назвой -->
             <div class="col__left">
-
+                <div class="sell__label" >наші нові розробки</div>
             </div>
             <div class="col__ring">
+                <span class="b2-pointLeft">&#10229;</span>
+                <span class=" b2-pointRing">&#10230;</span>
+                <a href="#" class="sell__all">усі товари</a>
+            </div>
+            <!-- блок контента-->
+            <div class="sell__content">
+                <div class="sell__items">
 
+                </div>
+                <div class="col__2  sell__items ">
+
+                </div>
+                <div class=" sell__items col__2">
+
+                </div>
+                <div class="sell__items sell__items_end ">
+
+                </div>
             </div>
         </div>
     </div>
