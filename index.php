@@ -17,6 +17,7 @@
 
 <!-- рамки екрана -->
 <div class="header">
+<header>
 
     <!-- головна строрінка -->
     <div class="block__info">
@@ -52,7 +53,7 @@
     <div class="block__nav">
         <div class="container">
             <div class="header__inner">
-                <div class="header__logo">CreWW</div>
+                <div class="header__logo icon-logo"></div>
                 <div class="nav">
                     <a class="nav__link" href="#">одяг</a>
                     <a class="nav__link" href="#">медицина</a>
@@ -78,10 +79,12 @@
         </div>
     </div>
 
+</header>
+
     <!-- Заставка-->
     <div class="br__body">
         <div class="br__slider fade">
-            <img class="gray" src="/assets/img/hofner-banner@2x2.jpg" style="width: 1440px;">
+            <img class="gray" src="/assets/img/hofner-banner@2x2.jpg" style="width: 1440px;" alt="">
             <div class="br__tag">
                 <a class="br__tag__left" onclick="plusSliedes(-1)">&#8592</a>
                 <a class="br__tag__ring" onclick="plusSliedes(1)">&#8594</a>
@@ -89,7 +92,7 @@
             <a class="br__button">переглянути новинки</a>
         </div>
         <div class="br__slider fade">
-            <img class="gray" src="/assets/img/hofner-banner@2-0-rus.jpg" style="width: 1440px;">
+            <img class="gray" src="/assets/img/hofner-banner@2-0-rus.jpg" style="width: 1440px;" alt="">
             <div class="br__tag">
                 <a class="br__tag__left" onclick="plusSliedes(-1)">&#8592</a>
                 <a class="br__tag__ring" onclick="plusSliedes(1)">&#8594</a>
@@ -98,11 +101,11 @@
         </div>
     </div>
 
-    <!-- Блок 1 -->
     <div class="container">
+    <!-- Блок 1 -->
         <div class="container__category">
             <div class="row">
-                <div class="col__1">
+                <div class="b4___col">
                     <div class="content__img">
                         <span class="b1__category__label">наші товари</span>
                         <span class="b1__category__description">
@@ -115,49 +118,47 @@
                     <span class="b1__category__supscription">обирай</span>
                     <span class="b1__category__label b1__label">Одяг</span>
                     <a class="b1__category__subscription" href="#">усі товари</a>
-                    <span class="b1__category__subscription  icon-pointleft b1-pointRing"></span>
-                    <img class="content__img" src="assets/img/b-guns1.jpg">
+                    <span class="b1__category__subscription  icon-point-R b1-pointRing"></span>
+                    <img class="content__img" src="assets/img/b-guns1.jpg" alt="">
                 </div>
                 <div class="col__3">
                     <span class="b1__category__supscription">обирай</span>
                     <span class="b1__category__label b1__label">Медицина</span>
                     <a class="b1__category__subscription" href="#">усі товари </a>
-                    <span class="b1__category__subscription  icon-pointleft b1-pointRing"></span>
-                    <img class="content__img" src="assets/img/b-medic2.jpg">
+                    <span class="b1__category__subscription  icon-point-R b1-pointRing"></span>
+                    <img class="content__img" src="assets/img/b-medic2.jpg" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col__1">
+                <div class="b4___col">
                     <span class="b1__category__supscription">обирай</span>
                     <span class="b1__category__label b1__label">Підсумки</span>
                     <a class="b1__category__subscription" href="#">усі товари</a>
-                    <span class="b1__category__subscription  icon-pointleft b1-pointRing"></span>
-                    <img class="content__img" src="assets/img/b-jakob3.jpg">
+                    <span class="b1__category__subscription  icon-point-R b1-pointRing"></span>
+                    <img class="content__img" src="assets/img/b-jakob3.jpg" alt="">
                 </div>
                 <div class="col__2 ">
                     <span class="b1__category__supscription">обирай</span>
                     <span class="b1__category__label b1__label">Рюкзаки</span>
                     <a class="b1__category__subscription" href="#">усі товари</a>
-                    <span class="b1__category__subscription  icon-pointleft b1-pointRing"></span>
-                    <img class="content__img" src="assets/img/b-specna4.jpg">
+                    <span class="b1__category__subscription  icon-point-R b1-pointRing"></span>
+                    <img class="content__img" src="assets/img/b-specna4.jpg" alt="">
                 </div>
                 <div class="col__3">
                     <span class="b1__category__supscription">обирай</span>
                     <span class="b1__category__label b1__label">Рюзгрузки</span>
                     <a class="b1__category__subscription" href="#">усі товари</a>
-                    <span class="b1__category__subscription  icon-pointleft b1-pointRing"></span>
-                    <img class="content__img" src="assets/img/b-unsplash5.jpg" n>
+                    <span class="b1__category__subscription  icon-point-R b1-pointRing"></span>
+                    <img class="content__img" src="assets/img/b-unsplash5.jpg" alt="">
                 </div>
             </div>
         </div>
-    </div>
 
     <!-- Блок 2 -->
-    <div class="container">
-        <div class="container__sell">
+        <div class="b2__container">
             <!-- напка з назвой -->
             <div class="col__left">
-                <div class="sell__label" >наші нові розробки</div>
+                <div class="b2__label" >наші нові розробки</div>
             </div>
             <div class="col__ring">
                 <span class="b2-pointLeft">&#10229;</span>
@@ -167,22 +168,143 @@
             <!-- блок контента-->
             <div class="sell__content">
                 <div class="sell__items">
+                    <img class="sell__img" src="assets/img/s-image1.jpg" alt="">
+                    <div class="sell__price">
+                        <div class="sell__name" >Бойова сорочка CS PIXEL ММ14</div>
 
+                        <div class="sell_button"></div>
+
+                    </div>
+                    <div class="sell_button">
+                        <div class="sell_to__cart">
+
+                        </div>
+                        <div class="sell__to_like">
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col__2  sell__items ">
+                <div class="sell__items">
+                    <img class="sell__img" src="assets/img/s-image2.jpg" alt="">
+                    <div class="sell__price">
+                        <div class="sell__name" >ЧОХОЛ БРОНЕЖИЛЕТА MULTICAM (КОПІЯ JPC)</div>
 
+                        <div class="sell_button"></div>
+
+                    </div>
+                    <div class="sell_button">
+                        <div class="sell_to__cart">
+                            <span class="sell__by">до кошика</span>
+                            <span class="icon-sell sell__by_svg"></span>
+                        </div>
+                        <div class="sell__to_like">
+                            <span class=""></span>
+                            <span class="icon-like "></span>
+                        </div>
+                    </div>
                 </div>
-                <div class=" sell__items col__2">
+                <div class="sell__items">
+                    <img class="sell__img" src="assets/img/s-image3.jpg" alt="">
+                    <div class="sell__price">
+                        <div class="sell__name" >ПІДСУМОК ДЛЯ АПТЕЧКИ IFAK MULTICAM</div>
 
+                        <div class="sell_button"></div>
+                        </div>
+                    <div class="sell_button">
+                        <div class="sell_to__cart">
+
+                        </div>
+                        <div class="sell__to_like">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="sell__items sell__items_end ">
+                    <img class="sell__img" src="assets/img/s-image4.jpg" alt="">
+                    <div class="sell__price">
+                        <div class="sell__name" >КАРКАСНИЙ ПІДСУМОК ДЛЯ СКИДУ МУЛЬТИКАМ</div>
 
+                        <div class="sell_button">
+
+                        </div>
+                    </div>
+                    <div class="sell_button">
+                        <div class="sell_to__cart">
+
+                        </div>
+                        <div class="sell__to_like">
+
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+    <!-- Блок 3 -->
+        <div class="b3__container">
+            <div class="b3__content">
+                <span class="b3__description">якісне тактичне споряденя для спецпідрозділів</span>
+                <span class="b3__supscription">Наші кліенти - гарант якості. П</span>
+            </div>
+            <img class="b3__img" alt="" src="assets/img/image8.jpg">
+        </div>
+
+    <!-- Блок 4 -->
+        <div class="b4__container">
+        <div class="b4__content">
+            <span class="b4__description">якісне тактичне споряденя для спецпідрозділів</span>
+            <span class="b4__supscription">Наші кліенти - гарант якості. П</span>
+            <a class="b4__button" href="#">перейти до instsgram</a>
+
+        </div>
+        <div class="b4__gallery">
+            <div class="b4___col">
+                <span class="b4__insta">@hofner.ukraine</span>
+                <img class="b4__gallery_img" src="assets/img/hofner%201.jpg">
+            </div>
+            <div class="b4___col">
+                <span class="b4__insta">@hofner.ukraine</span>
+                <img class="b4__gallery_img" src="assets/img/hofner%202.jpg">
+            </div>
+            <div class="b4___col">
+                <span class="b4__insta">@hofner.ukraine</span>
+                <img class="b4__gallery_img" src="assets/img/hofner%203.jpg">
+            </div>
+
+            <div class="b4___col">
+                <span class="b4__insta">@hofner.ukraine</span>
+                <img class="b4__gallery_img" src="assets/img/hofner%204.jpg">
+            </div>
+            <div class="b4___col">
+                <span class="b4__insta">@hofner.ukraine</span>
+                <img class="b4__gallery_img" src="assets/img/hofner%205.jpg">
+            </div>
+            <div class="b4___col">
+                <span class="b4__insta">@hofner.ukraine</span>
+                <img class="b4__gallery_img" src="assets/img/hofner%206.jpg">
             </div>
         </div>
     </div>
 
+    <!-- Блок 3 -->
+        <div class="b3__container">
+            <div class="b3__content">
+                <span class="b3__description">якісне тактичне споряденя для спецпідрозділів</span>
+                <span class="b3__supscription">Наші кліенти - гарант якості. П</span>
+            </div>
+            <img class="b4__YouTube" alt="" src="assets/img/">
+        </div>
+    </div>
     <!-- закритя тега  header --> </div>
+
+
+
+
+
+
+
+
+
 <script src="assets/script.js"></script>
 </body>
 </html>
