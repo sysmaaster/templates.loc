@@ -77,14 +77,22 @@ margin-top: 8px;
 .icon-f-1-icon-design:before {
   content: "\e90a";
   color: #fcb500;
+  display: block;
 }
 .icon-f-2-icon-talk:before {
   content: "\e90b";
   color: #fcb500;
+  font-size: 52px;
+  margin-top: -5px;
+  display: block;
 }
 .icon-f-3-icon-target:before {
   content: "\e90c";
   color: #fcb500;
+  font-size: 49px;
+  margin-top: -4px;
+  margin-left: 5px;
+  display: block;
 }
 .icon-f-4-icon-textile:before {
   content: "\e90d";

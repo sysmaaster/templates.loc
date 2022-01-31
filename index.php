@@ -16,7 +16,7 @@
 <body>
 
 <!-- рамки екрана -->
-<div class="header">
+<div class="display">
 <header>
 
     <!-- головна строрінка -->
@@ -81,8 +81,7 @@
 
 </header>
 
-    <!-- Заставка-->
-    <div class="br__body">
+<!-- Заставка--><div class="br__body">
         <div class="br__slider fade">
             <img class="gray" src="/assets/img/hofner-banner@2x2.jpg" style="width: 1440px;" alt="">
             <div class="br__tag">
@@ -101,11 +100,12 @@
         </div>
     </div>
 
-    <div class="container">
-    <!-- Блок 1 -->
+<!-- Блок Контента--> <div class="container">
+
+<!-- Блок 1 НАШІ ТОВАРИ -->
         <div class="container__category">
             <div class="row">
-                <div class="b4___col">
+                <div class="col__1">
                     <div class="content__img">
                         <span class="b1__category__label">наші товари</span>
                         <span class="b1__category__description">
@@ -130,7 +130,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="b4___col">
+                <div class="col__1">
                     <span class="b1__category__supscription">обирай</span>
                     <span class="b1__category__label b1__label">Підсумки</span>
                     <a class="b1__category__subscription" href="#">усі товари</a>
@@ -153,9 +153,11 @@
                 </div>
             </div>
         </div>
+<!-- Блок Контента--></div>
 
-    <!-- Блок 2 -->
-        <div class="b2__container">
+<!-- Блок 2 НАШІ НОВІ РОЗРОБКИ-->
+    <div class="b2__container">
+        <div class="container">
             <!-- напка з назвой -->
             <div class="col__left">
                 <div class="b2__label" >наші нові розробки</div>
@@ -239,72 +241,141 @@
                 </div>
             </div>
         </div>
+    </div>
 
-    <!-- Блок 3 -->
+<!-- Блок 3 ЯКІСНЕ ТАКТИЧНЕ СПОРЯДЖЕННЯ-->
+    <div class="b3__background">
         <div class="b3__container">
             <div class="b3__content">
-                <span class="b3__description">якісне тактичне споряденя для спецпідрозділів</span>
-                <span class="b3__supscription">Наші кліенти - гарант якості. П</span>
+                <span class="b3__label ">якісне тактичне спорядження для спецпідрозділів</span>
+                <span class="b3__supscription">Наші клієнти – гарант якості. Продукція Hofner, в першу чергу, розрахована для підрозділів спецназу і військової розвідки.
+                    Також, нашу екіпіровку використовують солдати збройних сил України, прикордонної служби, нацгвардія, добровольчі батальйони, працівники ДСО, морські піхотинці, військові парамедики і десантники.
+
+                   <br>  <br> Завдання нашого тактичного спорядження – не підвести в бою і бути корисним позаду лінії фронту. Примітно, що спорядження Hofner користується попитом і на "Великій землі". Крім військових дій, наше екіпірування якісно зарекомендувало себе серед страйкболістів та мисливців.</span>
             </div>
             <img class="b3__img" alt="" src="assets/img/image8.jpg">
         </div>
+    </div>
 
-    <!-- Блок 4 -->
-        <div class="b4__container">
+<!-- Блок 4 БІЛЬШЕ  У НАШОМУ INSTAGRAM -->
+        <div class="b4__background">
+                <div class="b4__container">
         <div class="b4__content">
-            <span class="b4__description">якісне тактичне споряденя для спецпідрозділів</span>
-            <span class="b4__supscription">Наші кліенти - гарант якості. П</span>
+            <span class="b4__label">Ще більше цікавого у нашому Instagram</span>
+            <span class="b3__supscription b4__sup">
+                           Підписуйся на нашу сторінку в Instagram та першим дізнайвайся про новинки та акції.
+                           Також на тебе чекають огляди популярних товарів, майстер-класи та багато іншого.</span>
             <a class="b4__button" href="#">перейти до instsgram</a>
-
         </div>
+
         <div class="b4__gallery">
             <div class="b4___col">
                 <span class="b4__insta">@hofner.ukraine</span>
-                <img class="b4__gallery_img" src="assets/img/hofner%201.jpg">
+                <img class="b4__gallery_img" src="assets/img/hofner%201.jpg" alt="">
             </div>
             <div class="b4___col">
                 <span class="b4__insta">@hofner.ukraine</span>
-                <img class="b4__gallery_img" src="assets/img/hofner%202.jpg">
+                <img class="b4__gallery_img" src="assets/img/hofner%202.jpg" alt="">
             </div>
             <div class="b4___col">
                 <span class="b4__insta">@hofner.ukraine</span>
-                <img class="b4__gallery_img" src="assets/img/hofner%203.jpg">
+                <img class="b4__gallery_img" src="assets/img/hofner%203.jpg" alt="">
             </div>
 
             <div class="b4___col">
                 <span class="b4__insta">@hofner.ukraine</span>
-                <img class="b4__gallery_img" src="assets/img/hofner%204.jpg">
+                <img class="b4__gallery_img" src="assets/img/hofner%204.jpg" alt="">
             </div>
             <div class="b4___col">
                 <span class="b4__insta">@hofner.ukraine</span>
-                <img class="b4__gallery_img" src="assets/img/hofner%205.jpg">
+                <img class="b4__gallery_img" src="assets/img/hofner%205.jpg" alt="">
             </div>
             <div class="b4___col">
                 <span class="b4__insta">@hofner.ukraine</span>
-                <img class="b4__gallery_img" src="assets/img/hofner%206.jpg">
+                <img class="b4__gallery_img" src="assets/img/hofner%206.jpg" alt="">
             </div>
         </div>
     </div>
+        </div>
 
-    <!-- Блок 3 -->
-        <div class="b3__container">
+<!-- Блок 5 ВСЯ ПРОДУКЦІЯ ПРОЙШЛA ВИПРOБУВАННЯ-->
+        <div class="b5__background">
+        <div class=" b5__container">
             <div class="b3__content">
-                <span class="b3__description">якісне тактичне споряденя для спецпідрозділів</span>
-                <span class="b3__supscription">Наші кліенти - гарант якості. П</span>
+                <span class="b5__label">ВСЯ ПРoДУКЦІЯ ПРОЙШЛa ВИПРoБУВАННЯ В ЗОНІ ООС (aТО)</span>
+                <span class="b3__supscription b5__sup">Випробувано залізними людьми в залізних умовах.
+                    Наша продукція розроблена спільно з військовими фахівцями, з огляду на досвід бойових дій на сході України.
+                    Відчула на власній "кордурі" молот і ковадло полігонів. Спочатку вся продукція ретельно тестується на навчаннях.
+                    Наше екіпірування загартована війною. Надійність матеріалів та зручність спорядження Hofner поліпшило якість проведення багатьох бойових операцій.</span>
             </div>
-            <img class="b4__YouTube" alt="" src="assets/img/">
+            <img class="b5__YouTube" alt="" src="assets/img/">
         </div>
+        </div>
+
+<footer>
+<!-- Блок 6 НАШІ ПЕРЕВАГИ -->
+    <div class="foo_info">
+        <div class="container">
+            <div class="foo_content">
+                <div class="foo__block">
+                    <span class="b4__label">наші переваги</span>
+                    <span class="foo__supscription">Ми добре знаємо, що від якості виготовленого нами екіпірування залежить чиєсь життя.
+                        Наша головна мета – не допустити того, щоб солдат втратив його. </span>
+                </div>
+                <div class="foo__block">
+                    <span class="icon-f-1-icon-design icon-f"></span>
+                    <span class="foo_title">Дбайливо продумуємо дизайн</span>
+                    <span class="foo__supscription">Наші конструктори здобувають своє натхення " з усіх річок".
+                        Ми пильно стежимо за новинками тактичного спорядження на світовому ринку.
+                        Вивчаємо продукцію топових брендів, переймаємо їх досвід.
+                        Кращі розробки провідних армій світу втілені в наших продуктах.</span>
+                </div>
+                <div class="foo__block">
+                    <span class="icon-f-2-icon-talk "></span>
+                    <span class="foo_title">Враховуємо побажання бійців</span>
+                    <span class="foo__supscription">У розробці може взяти участь будь-який клієнт.
+                        Чому? Те, що помітили ви, могли не побачити ми. Солдат із бойовим досвідом, що випробував на собі безліч видів тактичного спорядження точно знає, що оптимально підходить для ведення бойових дій.</span>
+                </div>
+                <div class="foo__block">
+                    <span class="icon-f-3-icon-target "></span>
+                    <span class="foo_title">Наша ціль – найвища якість!</span>
+                    <span class="foo__supscription">Ми добре знаємо, що від якості виготовленого нами екіпірування залежить чиєсь життя. Наша головна мета - не допустити того, щоб солдат втратив його.
+                        А це також залежить від надійності спорядження. Від вас ми вимагаємо тільки успішного виконання бойових завдань.</span>
+                </div>
+
+                <div class="foo__block">
+                    <span class="icon-f-4-icon-textile icon-f"></span>
+                    <span class="foo_title">Оригінальна тканина і фурнітура</span>
+                    <span class="foo__supscription">Безсумнівно, ціна замінника дешевша. Але ми, в першу чергу, цінуємо життя наших клієнтів, яке залежить від якості екіпірування.
+                        Тріснутий фастекс або армована нитка китайського виробництва, можуть призвести до сумних наслідків під час бою.</span>
+                </div>
+
+                <div class="foo__block">
+                    <span class="icon-f-5-icon-earth icon-f"></span>
+                    <span class="foo_title">Доставка по україні та закордон</span>
+                    <span class="foo__supscription">Якщо якість - наш коник, то сервіс відповідає. Доставимо куди завгодно. Працюємо як з вітчизняними, так і з закордонними службами доставки.
+                        В основному, щоб уникнути переплат, ми працюємо з національним перевізником «Укрпошта», який доставляє не тільки по...</span>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
-    <!-- закритя тега  header --> </div>
 
 
+    <div class="foo__btn__img">
+        <a class="foo__button-icon"></a>
+    </div>
 
+    <!--  КАРТИНКА -->
+    <div class="foo__images"></div>
 
+<!-- Блок 6 с КАРТИНКОЙ -->
 
+</footer>
 
-
-
-
+</div> <!-- закритя тега  DISPLAY -->
 <script src="assets/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-.body{
+body{
     margin: 0;
     font-family: 'Alumni Sans', sans-serif;
     line-height: 1.6;
@@ -7,9 +7,10 @@
     font-style: normal;
     font-height: 20px;
     font-weight: 600;
-    background-color: black;
+    background: black;
 }
-.header{
+
+.display{
     top: 0;
     left: 0;
     right: 0;
@@ -63,11 +64,10 @@ h1,h2,h3,h4,h5.h6{
     background: #000000;
     border-bottom: solid 1px #31353e;
 }/* фон первого меню */
-
-/* строка інфо */
 .block__nav{
     background: #000000;
 }/* фон второго меню */
+/* строка інфо */
 .contact__number{
     margin-left: 54px;
 }
@@ -279,10 +279,10 @@ letter-spacing: 0;
 
 /* b2 */
 .b2__container{
-    margin-top: 70px;
-    height: 648px;
+    padding-top: 70px;
+    height: 717px;
     width: 100%;
-    background-color: #649191;
+    background-color: #fff;
 }
 .b2__label{
     display: block;
@@ -368,14 +368,43 @@ letter-spacing: 0;
 
 /* b3 container -*/
 .b3__container{
-    background-color: #847972;
-    height: 580px;
+    max-width: 100%;
+    width: 1266px;
+    margin: 0 auto;
     justify-content: space-between;
     display: flex;
+    height: 581px
 }
-.b3__content,.b4__content{
+.b3__background{
+    background-color: #847972;
+    height: 580px;
+    display: block;
+}
+.b3__content{
     margin-top: 100px;
     display: block;
+}
+.b3__label{
+    cursor: default;
+    display: block;
+    font-size: 43px;
+    line-height: 49px;
+
+    width: 580px;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+.b3__supscription{
+    display: block;
+    color: white;
+    text-transform: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+    font-weight: 100;
+    padding-top: 19px;
+    width: 610px;
 }
 .b3__img{
     margin-top: 100px;
@@ -384,19 +413,41 @@ letter-spacing: 0;
 }
 
 /* b4 container -*/
+
+.b4__background{
+    background-color: #ffffff;
+    display: block;
+}
 .b4__container{
+    max-width: 100%;
+    width: 1266px;
+    margin: 0 auto;
     background-color: #fff;
     height: 750px;
     justify-content: space-between;
     display: flex;
 }
 .b4__content{
+    margin-top: 100px;
     height: 285px;
     width: 380px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
+}
+.b4__label{
+    cursor: default;
+    font-size: 43px;
+    line-height: 48px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+}
+.b4__sup{
+    color: #5C5C5C;
+    padding: 0;
+    width: 380px;
 }
 .b4__button{
     padding: 12px 80px;
@@ -421,18 +472,117 @@ letter-spacing: 0;
 
 }
 .b4__insta{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
     margin: 235px 0 0 15px;
     position: absolute;
     display: block;
 }
 
 /* b5 container -*/
-.b4__YouTube {
+.b5__background{
+    height: 580px;
+    display: block;
+}
+.b5__container{
+    max-width: 100%;
+    width: 1266px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.02em;
+}
+.b5__label {
+    cursor: default;
+    display: block;
+    font-size: 43px;
+    line-height: 49px;
+    width: 400px;
+}
+.b5__sup{
+    padding-top: 33px;
+    width: 380px;
+}
+.b5__YouTube {
     height: 410px;
     width: 730px;
     margin-top: 100px;
     background-color: yellowgreen;
 }
+
+
+/* footer container -*/
+.foo_info{
+    height: 780px;
+    background-color: #d2cbc9;
+    display: block;
+    padding-top: 100px;
+}
+.foo_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 1266px;
+    height: 630px;
+}
+.foo__supscription {
+    width: 380px;
+    display: block;
+    padding-top: 19px;
+
+    font-family: "Roboto", sans-serif;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5C5C5C;
+}
+.foo__block{
+    width: 401px;
+    height: 284px;
+}
+.icon-f:before{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.foo_title{
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    margin-top: 15px;
+    display: block;
+    color: #000000;
+}
+.foo__btn__img{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFFFFF;
+}
+.foo__button-icon{
+    cursor: pointer;
+    width: 84px;
+    height: 84px;
+    margin-right: 91px;
+    margin-top: 13px;
+    background-image: url("/assets/img/f-6-goup-button.jpg");
+    background-repeat: no-repeat;
+}
+.foo__images{
+    width: 100%;
+    height: 210px;
+    background-color: #FFF;
+    background-image: url("/assets/img/footer_img_1440.png");
+    background-repeat: no-repeat;
+}
+
+
 
 
 
