@@ -28,6 +28,13 @@ body{
 h1,h2,h3,h4,h5.h6{
     margin: 0;
 }
+li {
+     list-style-type: none;
+ }
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
 
 /* Container */
 .container{
@@ -178,19 +185,13 @@ h1,h2,h3,h4,h5.h6{
     height: 50px;
     background: #FCB500;
     border-radius: 4px;
-    padding: 10px 10px;
-
+    padding: 6px 10px;
     text-transform: uppercase;
     color: #000000;
-    line-height: 30px;
     letter-spacing: 0.04em;
     text-align: center;
     font-size: 22px;
-    font-style: normal;
-    font-family: 'Alumni Sans', sans-serif;
-    font-weight: 600;
-
-    bottom: 63px;
+    bottom: 64px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -516,13 +517,13 @@ letter-spacing: 0;
 
 
 /* footer container -*/
-.foo_info{
+.foo__info{
     height: 780px;
     background-color: #d2cbc9;
     display: block;
     padding-top: 100px;
 }
-.foo_content{
+.foo__content{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -551,7 +552,7 @@ letter-spacing: 0;
     font-size: 40px;
     padding-top: 5px;
 }
-.foo_title{
+.foo__title{
     font-size: 28px;
     line-height: 26px;
     letter-spacing: 0.02em;
@@ -582,9 +583,68 @@ letter-spacing: 0;
     background-repeat: no-repeat;
 }
 
-
-
-
+.foo_vault{
+    background-color: rgba(144, 238, 144, 0.14);
+    border-bottom: solid 1px #31353e;
+}
+.vault_content{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 50px;
+}
+.content_iner-1{
+background-color: rgba(132, 121, 114, 0.19);
+    width: 865px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.content_iner-2{
+    width: 294px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+}
+.vault__title{
+    font-family: Alumni Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+}
+.input-footer{
+    width: 296px;
+    height: 44px;
+    margin-top: 28px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8F9299;
+}
+.vault__btn{
+    text-transform: uppercase;
+    background: #FCB500;
+    color: #000000;
+    text-align: center;
+    margin-top: 11px;
+    font-size: 18px;
+    padding: 11px;
+    width: 294px;
+}
+.content_iner_bloc{
+    width: 216px;
+    background-color: rgba(176, 224, 230, 0.44);
+}
 
 
 

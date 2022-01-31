@@ -314,9 +314,9 @@
 
 <footer>
 <!-- Блок 6 НАШІ ПЕРЕВАГИ -->
-    <div class="foo_info">
+    <div class="foo__info">
         <div class="container">
-            <div class="foo_content">
+            <div class="foo__content">
                 <div class="foo__block">
                     <span class="b4__label">наші переваги</span>
                     <span class="foo__supscription">Ми добре знаємо, що від якості виготовленого нами екіпірування залежить чиєсь життя.
@@ -324,7 +324,7 @@
                 </div>
                 <div class="foo__block">
                     <span class="icon-f-1-icon-design icon-f"></span>
-                    <span class="foo_title">Дбайливо продумуємо дизайн</span>
+                    <span class="foo__title">Дбайливо продумуємо дизайн</span>
                     <span class="foo__supscription">Наші конструктори здобувають своє натхення " з усіх річок".
                         Ми пильно стежимо за новинками тактичного спорядження на світовому ринку.
                         Вивчаємо продукцію топових брендів, переймаємо їх досвід.
@@ -332,46 +332,87 @@
                 </div>
                 <div class="foo__block">
                     <span class="icon-f-2-icon-talk "></span>
-                    <span class="foo_title">Враховуємо побажання бійців</span>
+                    <span class="foo__title">Враховуємо побажання бійців</span>
                     <span class="foo__supscription">У розробці може взяти участь будь-який клієнт.
                         Чому? Те, що помітили ви, могли не побачити ми. Солдат із бойовим досвідом, що випробував на собі безліч видів тактичного спорядження точно знає, що оптимально підходить для ведення бойових дій.</span>
                 </div>
                 <div class="foo__block">
                     <span class="icon-f-3-icon-target "></span>
-                    <span class="foo_title">Наша ціль – найвища якість!</span>
+                    <span class="foo__title">Наша ціль – найвища якість!</span>
                     <span class="foo__supscription">Ми добре знаємо, що від якості виготовленого нами екіпірування залежить чиєсь життя. Наша головна мета - не допустити того, щоб солдат втратив його.
                         А це також залежить від надійності спорядження. Від вас ми вимагаємо тільки успішного виконання бойових завдань.</span>
                 </div>
-
                 <div class="foo__block">
                     <span class="icon-f-4-icon-textile icon-f"></span>
-                    <span class="foo_title">Оригінальна тканина і фурнітура</span>
+                    <span class="foo__title">Оригінальна тканина і фурнітура</span>
                     <span class="foo__supscription">Безсумнівно, ціна замінника дешевша. Але ми, в першу чергу, цінуємо життя наших клієнтів, яке залежить від якості екіпірування.
                         Тріснутий фастекс або армована нитка китайського виробництва, можуть призвести до сумних наслідків під час бою.</span>
                 </div>
-
                 <div class="foo__block">
                     <span class="icon-f-5-icon-earth icon-f"></span>
-                    <span class="foo_title">Доставка по україні та закордон</span>
+                    <span class="foo__title">Доставка по україні та закордон</span>
                     <span class="foo__supscription">Якщо якість - наш коник, то сервіс відповідає. Доставимо куди завгодно. Працюємо як з вітчизняними, так і з закордонними службами доставки.
                         В основному, щоб уникнути переплат, ми працюємо з національним перевізником «Укрпошта», який доставляє не тільки по...</span>
                 </div>
             </div>
         </div>
-
-
-
     </div>
 
-
+<!--  кнопка Вверх! -->
     <div class="foo__btn__img">
         <a class="foo__button-icon"></a>
     </div>
 
-    <!--  КАРТИНКА -->
+<!--  КАРТИНКА -->
     <div class="foo__images"></div>
 
-<!-- Блок 6 с КАРТИНКОЙ -->
+<!-- подвал сайта-->
+    <div class="foo_vault">
+        <div class="container">
+            <div class="vault_content">
+                <div class="content_iner-1">
+
+                    <div class="content_iner_bloc">
+                        <div class="vault__title">Каталог Товарів</div>
+                        <ul>
+                            <li>Одяг</li>
+                        </ul>
+                    </div>
+
+                    <div class="content_iner_bloc">
+                        <div class="vault__title">Покупцям</div>
+                            <ul>
+                                <li>Розмірна сітка</li>
+                            </ul>
+                    </div>
+
+                    <div class="content_iner_bloc">
+                        <div class="vault__title">Компанія</div>
+                                <ul>
+                                    <li>Блог</li>
+                                </ul>
+                        </div>
+
+                    <div class="content_iner_bloc">
+                        <div class="vault__title">Контакти</div>
+                            <ul>
+                                <li>Одяг</li>
+                            </ul>
+                    </div>
+                 </div>
+<!-- ПІДПИСКА НА НОВИНИ ТА АКЦІЇ-->
+                <div class="content_iner-2">
+                    <div class="vault__title">Підписка на новини та акції</div>
+                    <label >
+                        <input class="input-footer" placeholder="E-mail" name="example_email" type="email" disabled="disabled" />
+                    </label>
+                    <a class="vault__btn">оформити підписку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 </footer>
 
